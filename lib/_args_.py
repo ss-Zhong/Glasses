@@ -85,8 +85,6 @@ def get_args_parser():
                         help='Random erase count (default: 1)')
     parser.add_argument('--resplit', action='store_true', default=False,
                         help='Do not random erase first (clean) augmentation split')
-    parser.add_argument('--config-module', type=str, default='hyper_paramaters_default',
-                        help='config module name (default: hyper_paramaters_default)')
     
     return parser
 

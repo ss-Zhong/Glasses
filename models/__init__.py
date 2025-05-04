@@ -9,8 +9,8 @@ url = {
     'deit_small': 'facebook/deit-small-distilled-patch16-224',
     'swin_tiny': 'microsoft/swin-tiny-patch4-window7-224',
     'swin_small': 'microsoft/swin-small-patch4-window7-224',
-    'iBotvit_small': '/share/models/vit-small/ibot_checkpoint.pth', # down from https://lf3-nlp-opensource.bytetos.com/obj/nlp-opensource/archive/2022/ibot/vits_16/checkpoint.pth 
-    'Dinovit_small': '/share/models/vit-small/dino_checkpoint.pth', # down from https://dl.fbaipublicfiles.com/dino/dino_deitsmall16_pretrain/dino_deitsmall16_pretrain_full_checkpoint.pth
+    'iBotvit_small': '/share/models/vit-small/ibot_checkpoint.pth', # download from https://lf3-nlp-opensource.bytetos.com/obj/nlp-opensource/archive/2022/ibot/vits_16/checkpoint.pth 
+    'Dinovit_small': '/share/models/vit-small/dino_checkpoint.pth', # download from https://dl.fbaipublicfiles.com/dino/dino_deitsmall16_pretrain/dino_deitsmall16_pretrain_full_checkpoint.pth
 }
 
 def create_model(model, student = True):

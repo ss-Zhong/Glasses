@@ -7,8 +7,6 @@ args = {
     "loss_type": "CrossEntropy", 
     # ["CrossEntropy", "Dino", "iBot"]
     
-    "config-module": f"hyper_parameters",
-    
     "edge_dataset": "IMNET",
     "edge_data_path": "/share/imagenet",
     
