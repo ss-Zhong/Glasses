@@ -1,0 +1,8 @@
+/.vscode
+/dataset/MultiDataset
+/output
+/wandb
+/runs
+/model_param
+*__pycache__
+*png
