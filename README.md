@@ -20,15 +20,14 @@ For the model backbone, we provide support for various pre-trained models, inclu
 The following models are supported:
 
 ```yaml
-models:
-  vit_base: "google/vit-base-patch16-224"
-  vit_tiny: "facebook/deit-tiny-patch16-224"
-  deit_base: "facebook/deit-base-distilled-patch16-224"
-  deit_small: "facebook/deit-small-distilled-patch16-224"
-  swin_tiny: "microsoft/swin-tiny-patch4-window7-224"
-  swin_small: "microsoft/swin-small-patch4-window7-224"
-  iBotvit_small: "https://lf3-nlp-opensource.bytetos.com/obj/nlp-opensource/archive/2022/ibot/vits_16/checkpoint.pth"
-  Dinovit_small: "https://dl.fbaipublicfiles.com/dino/dino_deitsmall16_pretrain/dino_deitsmall16_pretrain_full_checkpoint.pth"
+vit_base: "google/vit-base-patch16-224"
+vit_tiny: "facebook/deit-tiny-patch16-224"
+deit_base: "facebook/deit-base-distilled-patch16-224"
+deit_small: "facebook/deit-small-distilled-patch16-224"
+swin_tiny: "microsoft/swin-tiny-patch4-window7-224"
+swin_small: "microsoft/swin-small-patch4-window7-224"
+iBotvit_small: "https://lf3-nlp-opensource.bytetos.com/obj/nlp-opensource/archive/2022/ibot/vits_16/checkpoint.pth"
+Dinovit_small: "https://dl.fbaipublicfiles.com/dino/dino_deitsmall16_pretrain/dino_deitsmall16_pretrain_full_checkpoint.pth"
 ```
 
 ## Quick Start 🔥
