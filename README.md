@@ -1,4 +1,4 @@
-# ✨Glasses✨
+# 👓 Glasses
 
 ![GitHub stars](https://img.shields.io/github/stars/ss-Zhong/Glasses?style=flat&color=5caaf3)
 ![Visits](https://badges.pufler.dev/visits/ss-Zhong/Glasses?color=47bdae)
