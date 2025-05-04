@@ -1,7 +1,7 @@
 # 👓 Glasses
 
 ![GitHub stars](https://img.shields.io/github/stars/ss-Zhong/Glasses?style=flat&color=5caaf3)
-![Visits](https://badges.pufler.dev/visits/ss-Zhong/Glasses?color=47bdae)
+![Visits](https://badges.pufler.dev/visits/ss-Zhong/Glasses?color=47bdae&label=visits)
 ![License](https://img.shields.io/github/license/ss-Zhong/Glasses)
 ![Last commit](https://img.shields.io/github/last-commit/ss-Zhong/Glasses)
 
