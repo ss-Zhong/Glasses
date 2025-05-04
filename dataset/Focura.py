@@ -7,6 +7,8 @@ import torch
 class Focura(torch.utils.data.Dataset):
     _scene_ = ''
     _scene_root_ = ''
+
+    # path to the Focura subset with different scenes
     _subset_root_ = '/share/Focura/subFocura/'
 
     def __init__(self, root, n_way=5, n_shot=5, n_query=15, n_episodes=50, transform=None):
@@ -150,10 +152,16 @@ class Focura(torch.utils.data.Dataset):
 
 if __name__ == '__main__':
 
-    # list all scene
-    bs = Focura.__list_scene__('/share/Focura')
+    # path to the Focura dataset
+    Focura_PATH = '/share/Focura'
     
-    # build subset
-    # bs = Focura.__build_subset__('/share/Focura', output_dir=Focura._subset_root_, export=True)
-    # for scene_img in bs:
-    #     pass
+    # build subset with export
+    bs = Focura.__build_subset__(Focura_PATH, output_dir=Focura._subset_root_, export=True)
+    for scene_img in bs:
+        pass
+
+    # # use the dataset
+    # scene_list = Focura.__list_scene__('/share/Focura')
+    # for scene in scene_list:
+    #     Focura._scene_ = scene
+    #     # ...

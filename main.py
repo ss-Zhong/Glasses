@@ -31,8 +31,8 @@ if __name__ == '__main__':
     )
 
     utils.set_seed(seed = args.seed)
-    # no realworld
     scene_list = Focura.__list_scene__('/share/Focura')
+    
     for scene in scene_list:
         Focura._scene_ = scene
         scene_path = args.data_path + '/scene/' + scene + '.jpg'
@@ -60,7 +60,7 @@ if __name__ == '__main__':
             test_stats[f"{n_shot}_ours"] = device.fewshot_on_device()
 
         wandb.log({
-            # Spotlight
+            # with Glasses
             f"Acc1_ours_1_ProtoNet": test_stats["1_ours"]['acc'][1],
             f"Acc1_ours_5_ProtoNet": test_stats["5_ours"]['acc'][1],
             
@@ -74,7 +74,7 @@ if __name__ == '__main__':
             f"Acc1_base_1_Baseline++": test_stats["1_base"]['acc'][0],
             f"Acc1_base_5_Baseline++": test_stats["5_base"]['acc'][0],
 
-            # std
+            # confidence
             f"cof_ours_1_ProtoNet": test_stats["1_ours"]['cof'][1],
             f"cof_ours_5_ProtoNet": test_stats["5_ours"]['cof'][1],
             
