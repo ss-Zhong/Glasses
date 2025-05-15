@@ -1,10 +1,5 @@
 # 👓 Glasses
 
-![GitHub stars](https://img.shields.io/github/stars/ss-Zhong/Glasses?style=flat&color=5caaf3)
-![Visits](https://badges.pufler.dev/visits/ss-Zhong/Glasses?color=47bdae&label=visits)
-![License](https://img.shields.io/github/license/ss-Zhong/Glasses)
-![Last commit](https://img.shields.io/github/last-commit/ss-Zhong/Glasses)
-
 <!-- ![Citation Count](https://img.shields.io/semantic-release/citation?url=https://your-papers-link) -->
 
 Official PyTorch implementation of the paper **Glasses: Environment-Aware Deployment of Few-Shot Classification via Device-Cloud Collaboration**.
