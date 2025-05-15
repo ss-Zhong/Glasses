@@ -2,7 +2,7 @@
 
 <!-- ![Citation Count](https://img.shields.io/semantic-release/citation?url=https://your-papers-link) -->
 
-Official PyTorch implementation of the paper **Glasses: Environment-Aware Deployment of Few-Shot Classification via Device-Cloud Collaboration**.
+Official PyTorch implementation of the paper **Glasses: Enabling Fast Environment-aware Few-Shot Learning via Device-Cloud Collaboration**.
 
 ## Datasets
 
