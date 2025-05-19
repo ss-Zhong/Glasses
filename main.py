@@ -27,7 +27,7 @@ if __name__ == '__main__':
         project = "Glasses",
         name = f"[{args.dataset}]-[{args.model}]-[{args.loss_type}]-[seed]{args.seed}",
         mode=('online' if args.upload else 'offline'),
-        group='main'
+        group='final'
     )
 
     utils.set_seed(seed = args.seed)

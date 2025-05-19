@@ -98,7 +98,7 @@ def train_one_epoch_AllLoss(model: torch.nn.Module, data_loader: Iterable, devic
         batch_size = samples1.size(0)
         if mix_img is not None:
             # new mix
-            reso = 14
+            reso = 7
             p = 0.3 if loss_type != 'iBot' else 0.3 / (1-0.3)# mix ratio
             num_patches = reso * reso
             num_ones = int(num_patches * p)

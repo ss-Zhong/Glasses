@@ -2,7 +2,7 @@ import sys
 from lib.utils import logmsg
 
 args = {
-    "model": "vit_tiny", 
+    "model": "swin_tiny", 
     # ["vit_base", "deit_base", "vit_tiny", 'deit_small', 'swin_tiny', 'swin_small', | 'iBotvit_small', 'Dinovit_small']
     "loss_type": "CrossEntropy", 
     # ["CrossEntropy", "Dino", "iBot"]
@@ -15,7 +15,7 @@ args = {
 
     "seed": 0,
     "n_way": 5,
-    # "upload": True,
+    "upload": True,
 
     "subset_size": 5120,
     "batch_size": 128,
